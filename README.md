@@ -50,7 +50,7 @@ On the command window:
 3. This will open a black Windows PowerShell.
 4. Paste the following code and press Enter to run: 
 ```
-pyinstaller --onefile US_Visa_Appointment_Bot.py
+python -m PyInstaller --onefile US_Visa_Appointment_Bot.py
 ```
 5. After the code has executed, it will create a "build" and "dist" folder in the directory.
 6. Go to the "dist" folder.
